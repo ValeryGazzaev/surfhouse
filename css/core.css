@@ -1,0 +1,56 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	width: 100%;
+	min-width: 320px;
+}
+
+.wrapper {
+	max-width: 1280px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+.title {
+	font-weight: 900;
+	font-style: italic;
+	font-size: 24px;
+	line-height: 28px;
+}
+
+.title-slider {
+	font-size: 22px;
+	line-height: 24px;
+	color: 717171;
+}
+
+.red {
+	font-size: 14px;
+	line-height: 16px;
+	font-weight: 900;
+	font-style: italic;
+	color: #e24602;
+}
+
+.half-red {
+	font-size: 14px;
+	line-height: 16px;
+	font-weight: 900;
+	font-style: italic;
+	color: #fe0000;
+}
+
+.price {
+	font-size: 18px;
+	line-height: 22px;
+	font-weight: 900;
+	font-style: italic;
+	color: #333333;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
