@@ -22,9 +22,21 @@
 	justify-content: space-between;
 }
 
+.header-top .logo {
+	width: 270px;
+	text-align: center;
+	margin-top: 24px;
+}
+
+.header-top .logo {
+	filter: drop-shadow(0 0 30px #26D2FC);
+}
+
 .header-social {
+	-ms-align-self: flex-start;
+	align-self: flex-start;
 	display: inline-block;
-	margin-right: 75px; 
+	margin: 46px 20px 0 0; 
 }
 
 .header-social .header-social-btn {
@@ -33,13 +45,59 @@
 	font-size: 15px;
 }
 
+.header-social .header-social-btn:hover {
+	transform: scale();
+}
+
 .header-social .ig-btn {
-	font-size: 16px;
+	font-size: 18px;
+}
+
+.header-social .yt-btn {
+	font-size: 17px;
+}
+
+.header-social .pr-btn {
+	font-size: 17px;
 }
 
 .leanguage-block {
+	width: 30px;
+	font-family: 'Raleway', sans-serif;
+	position: relative;
 	display: inline-block;
+	height: 18px;
+	line-height: 10px;
+	vertical-align: middle;
 }
+
+.leanguage-block::before {
+	position: absolute;
+	content: "";
+	top: 5px;
+	right: 5px;
+	border: 4px solid #e9e9e9;
+	border-top-width: 5px;
+	border-bottom-width: 0;
+	border-left-color: transparent;
+	border-right-color: transparent;
+}
+
+.leanguage-block select {
+	position: relative;
+	width: 100%;
+	-webkit-appearance: none;
+	outline: none;
+	border: none;
+	font-weight: 600;
+	font-size: 11px;
+	letter-spacing: -0.5px;
+	color: #fff;
+	font-stretch: condensed;
+	background-color: transparent;
+	z-index: 1;
+}
+
 
 
 /* slider outer */
