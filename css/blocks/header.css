@@ -92,6 +92,8 @@
 
 .header-aside-slider {
 	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
 	width: 1170px;
 	font-family: 'Raleway', sans-serif;
 }
@@ -611,4 +613,16 @@
 
 .header-inner-slides a:active {
 	transform: scale(0.98);
+}
+
+@media (1200px) {
+	.header-aside-slider {
+		position: relative;
+		left: 50%;
+		transform: translateX(-50%);
+		width: 950px;
+	}
+	.header-aside-slides {
+		width: 950px;
+	}
 }
