@@ -23,9 +23,10 @@
 }
 
 .title-slider {
+	text-transform: uppercase;
 	font-size: 22px;
 	line-height: 24px;
-	color: 717171;
+	color: #717171;
 }
 
 .red {
@@ -34,6 +35,7 @@
 	font-weight: 900;
 	font-style: italic;
 	color: #e24602;
+	text-decoration: line-through;
 }
 
 .half-red {
@@ -42,6 +44,7 @@
 	font-weight: 900;
 	font-style: italic;
 	color: #fe0000;
+	text-decoration: line-through;
 }
 
 .price {
