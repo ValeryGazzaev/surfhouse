@@ -27,6 +27,8 @@
 	font-size: 22px;
 	line-height: 24px;
 	color: #717171;
+	font-weight: 900;
+	font-style: italic;
 }
 
 .red {
@@ -53,6 +55,10 @@
 	font-weight: 900;
 	font-style: italic;
 	color: #333333;
+}
+
+ul {
+	list-style: none;
 }
 
 body {
