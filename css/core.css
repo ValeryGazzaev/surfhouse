@@ -48,6 +48,7 @@
 	font-style: italic;
 	color: #fe0000;
 	text-decoration: line-through;
+	opacity: 0.6;
 }
 
 .price {
