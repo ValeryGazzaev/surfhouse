@@ -3,7 +3,6 @@
 }
 
 .content-wrap {
-	display: -webkit-flex;
 	display: -moz-flex;
 	display: -ms-flex;
 	display: -o-flex;
@@ -85,6 +84,7 @@
 	position: absolute;
 	content: "";
 	top: 50%;
+	-webkit-transform: translateY(-50%);
 	transform: translateY(-50%);
 	width: 30px;
 	height: 2px;
@@ -239,7 +239,6 @@
 
 [class$="products-slider-slides"] {
 	width: 300%;
-	display: -webkit-flex;
 	display: -moz-flex;
 	display: -ms-flex;
 	display: -o-flex;
@@ -284,17 +283,21 @@
 	height: 11px;
 	background-image: url("../../img/spritesheet.png");
 	background-position: -52px -75px;
+	-webkit-transform: scaleX(-1);
 	transform: scaleX(-1);
 	z-index: 10;
 }
 
 #new-products-btn-1:checked ~ [class$="products-slider-inner"] [class$="products-slider-slides"] {
+	-webkit-transform: translateX(0);
 	transform: translateX(0);
 }  
 #new-products-btn-2:checked ~ [class$="products-slider-inner"] [class$="products-slider-slides"] {
+	-webkit-transform: translateX(-870px);
 	transform: translateX(-870px);
 } 
 #new-products-btn-3:checked ~ [class$="products-slider-inner"] [class$="products-slider-slides"] {
+	-webkit-transform: translateX(-1740px);
 	transform: translateX(-1740px);
 } 
 
@@ -322,17 +325,21 @@
 	height: 11px;
 	background-image: url("../../img/spritesheet.png");
 	background-position: -52px -75px;
+	-webkit-transform: scaleX(-1);
 	transform: scaleX(-1);
 	z-index: 10;
 }
 
 #top-products-btn-1:checked ~ [class$="products-slider-inner"] [class$="products-slider-slides"] {
+	-webkit-transform: translateX(0);
 	transform: translateX(0);
 }  
 #top-products-btn-2:checked ~ [class$="products-slider-inner"] [class$="products-slider-slides"] {
+	-webkit-transform: translateX(-870px);
 	transform: translateX(-870px);
 } 
 #top-products-btn-3:checked ~ [class$="products-slider-inner"] [class$="products-slider-slides"] {
+	-webkit-transform: translateX(-1740px);
 	transform: translateX(-1740px);
 } 
 
@@ -361,17 +368,21 @@
 	height: 11px;
 	background-image: url("../../img/spritesheet.png");
 	background-position: -52px -75px;
+	-webkit-transform: scaleX(-1);
 	transform: scaleX(-1);
 	z-index: 10;
 }
 
 #sale-products-btn-1:checked ~ [class$="products-slider-inner"] [class$="products-slider-slides"] {
+	-webkit-transform: translateX(0);
 	transform: translateX(0);
 }  
 #sale-products-btn-2:checked ~ [class$="products-slider-inner"] [class$="products-slider-slides"] {
+	-webkit-transform: translateX(-870px);
 	transform: translateX(-870px);
 } 
 #sale-products-btn-3:checked ~ [class$="products-slider-inner"] [class$="products-slider-slides"] {
+	-webkit-transform: translateX(-1740px);
 	transform: translateX(-1740px);
 } 
 
@@ -381,7 +392,6 @@
 .top-products-slides,
 .sale-products-slides {
 	width: 870px;
-	display: -webkit-flex;
 	display: -moz-flex;
 	display: -ms-flex;
 	display: -o-flex;
@@ -433,9 +443,6 @@
 /* New products */
 
 .new-products-slides {
-	-webkit-flex-wrap: wrap;
-	-moz-flex-wrap: wrap;
-	-ms-flex-wrap: wrap;
 	-o-flex-wrap: wrap;
 	flex-wrap: wrap;
 }
@@ -511,9 +518,7 @@
 
 @media (max-width: 1190px) {
 	.content-wrap {
-		-webkit-flex-direction: column;
 		-moz-flex-direction: column;
-		-ms-flex-direction: column;
 		-o-flex-direction: column;
 		flex-direction: column;
 		-ms-align-items: center;
@@ -525,21 +530,16 @@
 	.content-aside {
 		top: 0;
 		width: 100%;
-		display: -webkit-flex;
 		display: -moz-flex;
 		display: -ms-flex;
 		display: -o-flex;
 		display: flex;
-		-webkit-flex-wrap: wrap;
-		-moz-flex-wrap: wrap;
-		-ms-flex-wrap: wrap;
 		-o-flex-wrap: wrap;
 		flex-wrap: wrap;
 		justify-content: space-between;
 	}
 	.content-aside-menu {
 		width: 100%;
-		display: -webkit-flex;
 		display: -moz-flex;
 		display: -ms-flex;
 		display: -o-flex;
@@ -568,14 +568,10 @@
 		margin-top: 20px;
 	}
 	.content-aside-tags {
-		display: -webkit-flex;
 		display: -moz-flex;
 		display: -ms-flex;
 		display: -o-flex;
 		display: flex;
-		-webkit-flex-wrap: wrap;
-		-moz-flex-wrap: wrap;
-		-ms-flex-wrap: wrap;
 		-o-flex-wrap: wrap;
 		flex-wrap: wrap;
 	}
@@ -613,14 +609,11 @@
 		display: block;
 		width: 100px;
 		top: -10px;
-		display: -webkit-flex;
 		display: -moz-flex;
 		display: -ms-flex;
 		display: -o-flex;
 		display: flex;
-		-webkit-flex-direction: column;
 		-moz-flex-direction: column;
-		-ms-flex-direction: column;
 		-o-flex-direction: column;
 		flex-direction: column;
 		background-color: transparent;
@@ -631,6 +624,7 @@
 	}
 	[class$="products-slider-arrows"] {
 		left: 50%;
+		-webkit-transform: translate(-50%);
 		transform: translate(-50%);
 		right: auto;
 		top: -45px;

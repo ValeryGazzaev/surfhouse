@@ -1,0 +1,184 @@
+.brand {
+	background-color: #F8F8F8;
+}
+
+.brand-wrap {
+	background-color: #eaeaea;
+	padding: 0;
+}
+
+.inst-gallery,
+.brand-top {
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+}
+
+.brand-top {
+	padding: 62px 20px 55px;
+	background-color: #fff;
+}
+
+.brand-top p {
+	text-transform: uppercase;
+	color: #bababa;
+	font-size: 36px;
+	font-weight: 600;
+}
+
+.inst-feed {
+	padding: 51px 0 30px;
+}
+
+.inst-feed p {
+	position: relative;
+	font-size: 22px;
+	line-height: 24px;
+	color: #333333;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 900;
+	font-style: italic;
+	text-align: center;
+	vertical-align: middle;
+	letter-spacing: -0.2px;
+	max-width: 275px;
+	margin: 0 auto;
+} 
+
+.inst-feed i {
+	position: absolute;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+	left: -25px;
+	font-size: 36px;
+}
+
+.inst-feed a {
+	display: inline-block;
+	text-decoration: none;
+	font-size: 18px;
+	line-height: 22px;
+	color: #333333;
+}
+
+.inst-feed a:hover {
+	color: #3FCCFD;
+	text-decoration: underline;
+}
+
+.inst-feed a:active {
+	color: #E24602;
+}
+
+.inst-gallery .inst-images {
+	display: inline-block;
+	width: 185px;
+	height: 185px;
+	background-image: url("../../img/instagram/Livello 25.jpg");
+}
+
+.inst-gallery .image-2 {
+	background-image: url("../../img/instagram/Livello 26.jpg");
+}
+
+.inst-gallery .image-3 {
+	background-image: url("../../img/instagram/Livello 27.jpg");
+}
+
+.inst-gallery .image-4 {
+	background-image: url("../../img/instagram/Livello 28.jpg");
+}
+
+.inst-gallery .image-5 {
+	background-image: url("../../img/instagram/Livello 29.jpg");
+}
+
+.inst-gallery .image-6 {
+	background-image: url("../../img/instagram/Livello 30.jpg");
+}
+
+.inst-social {
+	text-align: center;
+	font-size: 0;
+	margin-top: 60px;
+}
+
+.inst-social .social-btn {
+	display: inline-block;
+	width: 390px;
+	background-color: #3b5997;
+	font-size: 60px;
+	padding: 40px 0 37px;
+	color: #fff;
+}
+
+.inst-social .tt-btn {
+	background-color: #3fccfd;
+}
+
+.inst-social .pr-btn {
+	background-color: #cb2027;
+}
+
+.inst-social .social-btn:hover {
+	background-color: #E2AE49;
+}
+
+.inst-social .tt-btn:hover {
+	background-color: #FF9E38;
+}
+
+.inst-social .pr-btn:hover {
+	background-color: #28A91B;
+}
+
+@media (max-width: 1100px) {
+	.brand-top {
+		padding: 42px 20px 35px;
+	}
+	.brand-top p {
+		font-size: 26px;
+	}
+}
+
+@media (max-width: 800px) {
+	.brand-top {
+		padding: 35px 20px 28px;
+	}
+	.brand-top p {
+		font-size: 18px;
+	}
+	.inst-gallery .inst-images {
+		background-position: center;
+	}
+}
+
+@media (max-width: 560px) {
+	.brand-top {
+		padding: 25px 20px 18px;
+	}
+	.brand-top p {
+		font-size: 12px;
+	}
+}
+
+@media (max-width: 420px) {
+	.brand-top {
+		padding: 20px 20px 13px;
+	}
+	.brand-top p {
+		font-size: 8px;
+	}
+	.inst-social {
+
+		margin-top: 20px;
+	}
+	.inst-social .social-btn {
+		width: 90vw;
+		font-size: 30px;
+		padding: 20px 0 17px;
+	}
+}
